@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Калькулятор</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="calculator">
+      <input type="text" id="display" value="123456788" readonly />
+      <div class="buttons" role="group" aria-label="Клавіші калькулятора">
+        <button class="btn btn-blue" data-action="clear">C</button>
+        <button class="btn btn-gray" data-action="backspace">←</button>
+        <button class="btn btn-blue" data-action="percent">%</button>
+        <button class="btn btn-operator" data-op="divide">÷</button>
+        <button class="btn" data-num="7">7</button>
+        <button class="btn" data-num="8">8</button>
+        <button class="btn" data-num="9">9</button>
+        <button class="btn btn-operator" data-op="multiply">×</button>
+        <button class="btn" data-num="4">4</button>
+        <button class="btn" data-num="5">5</button>
+        <button class="btn" data-num="6">6</button>
+        <button class="btn btn-operator" data-op="minus">−</button>
+        <button class="btn" data-num="1">1</button>
+        <button class="btn" data-num="2">2</button>
+        <button class="btn" data-num="3">3</button>
+        <button class="btn btn-operator" data-op="plus">+</button>
+        <button class="btn" data-num="0">0</button>
+        <button class="btn" data-decimal=",">,</button>
+        <button class="btn btn-operator equals" data-action="equals">=</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
